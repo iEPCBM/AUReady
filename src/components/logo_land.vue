@@ -4,7 +4,7 @@
     <div class="desc-wrapper">
       <h2 class="title">Музей <span class="title-sel">{{title}}</span></h2>
       <p class="sub-title">приглашает Вас на виртуальную выставку</p>
-      <p class="t-btn-wrapper"><a class="btn">Посетить</a></p>
+      <p class="t-btn-wrapper"><a class="btn" href="#s-tour">Посетить</a></p>
     </div>
   </div>
 </template>
@@ -18,6 +18,7 @@ export default {
 .part-wrapper {
   display: flex;
   position: relative;
+  margin: 0 0 0;
 }
 .desc-wrapper {
   align-self: center;
@@ -51,6 +52,8 @@ export default {
   border-style: solid;
   font-weight: 500;
   transition: .25s;
+  text-decoration: none;
+  color: var(--m-color-dark-gray)
 }
 .btn:hover {
   background-color: var(--m-color-dark-gray);

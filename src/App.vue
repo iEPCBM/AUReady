@@ -2,15 +2,15 @@
   <div id="app">
     <mheader v-bind:m_title="title"/>
     <mlogoLand v-bind:title="title"/>
+    <secabout/>
     <sectour/>
-    <!-- <secabout/> -->
   </div>
 </template>
 
 <script>
 import mheader from './components/header.vue';
 import mlogoLand from './components/logo_land.vue';
-// import secabout from './components/sections/sec_about.vue';
+import secabout from './components/sections/sec_about.vue';
 import sectour from './components/sections/sec_tour.vue';
 
 const queryString = window.location.search;
@@ -22,6 +22,7 @@ export default {
   components: {
     mheader,
     mlogoLand,
+    secabout,
     sectour
   },
   data() {

@@ -5,7 +5,7 @@
       <ul>
         <li><a href="#" class="aws-txt">Купить билет</a></li>
         <li><a href="#">О музее</a></li>
-        <li><a href="#">Онлайн-тур</a></li>
+        <li><a href="#s-tour">Онлайн-тур</a></li>
         <li><a href="#">Контакты</a></li>
         <li><a>RU</a></li>
         <li><a>TT</a></li>
@@ -59,7 +59,7 @@ a {
   display: flex;
   align-items: center;
   z-index: 10;
-  opacity: 0.98;
+  opacity: 0.9;
 }
 .aws-txt {
   background-color: var(--m-color-red);

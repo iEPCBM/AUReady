@@ -1,7 +1,8 @@
 <template>
   <div class="l-section sec-tour-wrapper">
     <div class="sec-title-wrapper">
-      <!-- <h2 class="sec-title">Онлайн-тур</h2> -->
+      <a name="s-tour"></a>
+      <h2 class="sec-title">Онлайн-тур</h2>
     </div>
     <iframe width="640"
             height="480"
@@ -23,6 +24,7 @@ export default {
 <style lang="css" scoped>
 .tour-frame {
   width: 100%;
-  margin: 3em 0;
+  min-height: 85vh;
+  margin: 0 0 3em;
 }
 </style>
