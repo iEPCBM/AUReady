@@ -1,5 +1,5 @@
 <template>
-  <div class="sec-about-wrapper">
+  <div class="section sec-about-wrapper">
     <h2 class="sec-title">О музее</h2>
     <div class="about-content">
       <img class="img-museum" src="../../assets/museum1.jpg" alt="">
@@ -23,7 +23,7 @@ export default {
 .img-museum {
   width: 33%;
   min-width: 480px;
-  margin: 0em 5em;
+  margin: 0;
 }
 .about-content {
   display: flex;
@@ -36,7 +36,7 @@ export default {
   align-self: flex-start;
 }
 .desc-content {
-  margin: 2em 1.5em;
+  margin: 2em 3em;
   padding: 0;
 }
 </style>

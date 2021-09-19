@@ -27,6 +27,7 @@ export default {
   min-width: 360px;
   width: 33%;
   margin: 5em -13em 0 20vw;
+  /* z-index: 11; */
 }
 .title {
   font-weight: bold;

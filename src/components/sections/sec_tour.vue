@@ -1,5 +1,5 @@
 <template>
-  <div class="l-section sec-tour-wrapper">
+  <div class="section sec-tour-wrapper">
     <div class="sec-title-wrapper">
       <a name="s-tour"></a>
       <h2 class="sec-title">Онлайн-тур</h2>

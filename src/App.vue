@@ -4,6 +4,7 @@
     <mlogoLand v-bind:title="title"/>
     <secabout/>
     <sectour/>
+    <mfooter/>
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import mheader from './components/header.vue';
 import mlogoLand from './components/logo_land.vue';
 import secabout from './components/sections/sec_about.vue';
 import sectour from './components/sections/sec_tour.vue';
+import mfooter from './components/footer.vue';
+
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -23,6 +26,7 @@ export default {
     mheader,
     mlogoLand,
     secabout,
+    mfooter,
     sectour
   },
   data() {
