@@ -4,6 +4,7 @@
     <mlogoLand v-bind:title="title"/>
     <secabout/>
     <sectour/>
+    <mcontacts/>
     <mfooter/>
   </div>
 </template>
@@ -13,6 +14,7 @@ import mheader from './components/header.vue';
 import mlogoLand from './components/logo_land.vue';
 import secabout from './components/sections/sec_about.vue';
 import sectour from './components/sections/sec_tour.vue';
+import mcontacts from './components/sections/contacts.vue';
 import mfooter from './components/footer.vue';
 
 
@@ -27,6 +29,7 @@ export default {
     mlogoLand,
     secabout,
     mfooter,
+    mcontacts,
     sectour
   },
   data() {
