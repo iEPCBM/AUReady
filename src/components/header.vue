@@ -59,7 +59,7 @@ a {
   display: flex;
   align-items: center;
   z-index: 10;
-  opacity: 0.9;
+  opacity: 0.96;
 }
 .aws-txt {
   background-color: var(--m-color-red);

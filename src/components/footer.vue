@@ -1,8 +1,9 @@
 <template>
   <div class="footer-wrapper">
     <div class="footer-block">
-      <p class="footer-text">Copyright &copy; 2021 Rishat D. Kagirov.</p>
-      <p class="footer-text">Лицензия MIT (<a href="#">просмотр лицензии</a>)</p>
+      <p class="footer-text">Copyright &copy; 2021 PrintDocCloud team</p>
+      <p class="footer-text">Изображение музея: https://kazan.vperemen.com/, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons</p>
+      <p class="footer-text">Страница является демонстративной. Информация на данной странице может не совпадать с действительностью.</p>
     </div>
   </div>
 </template>
