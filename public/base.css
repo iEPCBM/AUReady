@@ -1,0 +1,30 @@
+.sec-title {
+  text-transform: uppercase;
+  color: var(--m-color-dark-gray);
+  position: relative;
+  display: inline-block;
+  margin: 2em 7em 1.25em;
+}
+.sec-title::after {
+  content: '';
+  height: 3px;
+  right: 0;
+  top: 1.25em;
+  width: 100%;
+  position: absolute;
+  background-color: var(--m-color-dark-gray);
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  --m-color-yellow: #FFEEA8;
+  --m-color-green: #DEF0DC;
+  --m-color-gray: #D0DBCF;
+  --m-color-red-light: #B15757;
+  --m-color-red: #AA3C3C;
+  --m-color-dark-gray: #60736D;
+  --m-color-bg: #FFFDF5;
+  background-color: var(--m-color-bg);
+}
